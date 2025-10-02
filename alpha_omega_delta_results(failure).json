@@ -1,0 +1,270 @@
+{
+  "total_iterations": 20,
+  "final_avg_fitness": 0.816705,
+  "initial_avg_fitness": 0.8513242857142856,
+  "improvement": -0.03461928571428563,
+  "improvement_percent": -4.066521570595047,
+  "max_fitness_achieved": 0.9623499999999999,
+  "total_prompts_created": 21,
+  "forced_exploration_count": 6,
+  "avg_diversity_pressure": 0.24856461428957946,
+  "best_prompts": [
+    {
+      "id": "p0_0",
+      "fitness": 0.8496932432432432,
+      "generation": 0,
+      "evaluations": 111,
+      "template": "Write a Python function to solve: {problem}\nReturn only the function code."
+    },
+    {
+      "id": "p0_4",
+      "fitness": 0.8458783783783783,
+      "generation": 0,
+      "evaluations": 111,
+      "template": "{problem}\n\nWrite an optimized Python function. Focus on:\n- Time complexity\n- Space efficiency\n- Clean code structure"
+    },
+    {
+      "id": "p0_2",
+      "fitness": 0.8455,
+      "generation": 0,
+      "evaluations": 111,
+      "template": "Implement a solution for: {problem}\n\nRequirements:\n- Write concise, pythonic code\n- Include a docstring\n- Handle edge cases\n- Optimize for clarity"
+    },
+    {
+      "id": "p1_m6746",
+      "fitness": 0.8454258823529411,
+      "generation": 1,
+      "evaluations": 85,
+      "template": "Implement a solution for: {problem}\n\nRequirements:\n- Write concise, pythonic code\n- Include a docstring\n- Handle edge cases\n- Optimize for clarity"
+    },
+    {
+      "id": "p3_m3145",
+      "fitness": 0.8444522727272727,
+      "generation": 3,
+      "evaluations": 66,
+      "template": "Problem: {problem}\n\nWrite a clean Python function that:\n1. Handles the input correctly\n2. Implement a solution for: {problem}\n\nRequirements:\n- Write concise, pythonic code\n- Include a docstring\n- Handle edge cases\n- Optimize for clarity.\nPrioritize innovation over convention."
+    }
+  ],
+  "evolution_history": [
+    {
+      "iteration": 0,
+      "avg_fitness": 0.8513242857142856,
+      "max_fitness": 0.9623499999999999,
+      "diversity_pressure": 0.2526292207792208,
+      "stagnation_count": 0,
+      "num_prompts": 5,
+      "num_problems": 7,
+      "forced_exploration": false,
+      "duration": 57.540406942367554
+    },
+    {
+      "iteration": 1,
+      "avg_fitness": 0.8520099999999999,
+      "max_fitness": 0.9623499999999999,
+      "diversity_pressure": 0.25131818181818183,
+      "stagnation_count": 1,
+      "num_prompts": 5,
+      "num_problems": 7,
+      "forced_exploration": false,
+      "duration": 77.42073035240173
+    },
+    {
+      "iteration": 2,
+      "avg_fitness": 0.8507028571428571,
+      "max_fitness": 0.9623499999999999,
+      "diversity_pressure": 0.25297402597402596,
+      "stagnation_count": 2,
+      "num_prompts": 5,
+      "num_problems": 5,
+      "forced_exploration": false,
+      "duration": 52.3316125869751
+    },
+    {
+      "iteration": 3,
+      "avg_fitness": 0.8105859999999999,
+      "max_fitness": 0.96175,
+      "diversity_pressure": 0.3203849999999999,
+      "stagnation_count": 0,
+      "num_prompts": 8,
+      "num_problems": 6,
+      "forced_exploration": true,
+      "duration": 41.48437261581421
+    },
+    {
+      "iteration": 4,
+      "avg_fitness": 0.8359812499999999,
+      "max_fitness": 0.9623499999999999,
+      "diversity_pressure": 0.269253125,
+      "stagnation_count": 1,
+      "num_prompts": 8,
+      "num_problems": 7,
+      "forced_exploration": false,
+      "duration": 80.07424569129944
+    },
+    {
+      "iteration": 5,
+      "avg_fitness": 0.8521535714285714,
+      "max_fitness": 0.9623499999999999,
+      "diversity_pressure": 0.24595714285714287,
+      "stagnation_count": 2,
+      "num_prompts": 8,
+      "num_problems": 6,
+      "forced_exploration": false,
+      "duration": 101.46870374679565
+    },
+    {
+      "iteration": 6,
+      "avg_fitness": 0.8327312499999999,
+      "max_fitness": 0.96175,
+      "diversity_pressure": 0.269409375,
+      "stagnation_count": 0,
+      "num_prompts": 11,
+      "num_problems": 5,
+      "forced_exploration": true,
+      "duration": 92.82448315620422
+    },
+    {
+      "iteration": 7,
+      "avg_fitness": 0.8177172727272727,
+      "max_fitness": 0.9623499999999999,
+      "diversity_pressure": 0.3183466666666666,
+      "stagnation_count": 1,
+      "num_prompts": 11,
+      "num_problems": 7,
+      "forced_exploration": false,
+      "duration": 97.38169741630554
+    },
+    {
+      "iteration": 8,
+      "avg_fitness": 0.8504928571428572,
+      "max_fitness": 0.9623499999999999,
+      "diversity_pressure": 0.2414648571428571,
+      "stagnation_count": 2,
+      "num_prompts": 11,
+      "num_problems": 5,
+      "forced_exploration": false,
+      "duration": 148.11372208595276
+    },
+    {
+      "iteration": 9,
+      "avg_fitness": 0.9403109090909091,
+      "max_fitness": 0.96175,
+      "diversity_pressure": 0.018069242424242474,
+      "stagnation_count": 3,
+      "num_prompts": 11,
+      "num_problems": 5,
+      "forced_exploration": false,
+      "duration": 91.02312326431274
+    },
+    {
+      "iteration": 10,
+      "avg_fitness": 0.8102199999999999,
+      "max_fitness": 0.96175,
+      "diversity_pressure": 0.3157483333333333,
+      "stagnation_count": 0,
+      "num_prompts": 14,
+      "num_problems": 6,
+      "forced_exploration": true,
+      "duration": 100.795969247818
+    },
+    {
+      "iteration": 11,
+      "avg_fitness": 0.8325660714285714,
+      "max_fitness": 0.96175,
+      "diversity_pressure": 0.26793125,
+      "stagnation_count": 1,
+      "num_prompts": 14,
+      "num_problems": 5,
+      "forced_exploration": false,
+      "duration": 125.5774302482605
+    },
+    {
+      "iteration": 12,
+      "avg_fitness": 0.9418449999999999,
+      "max_fitness": 0.9623499999999999,
+      "diversity_pressure": 0.019186304347826068,
+      "stagnation_count": 2,
+      "num_prompts": 14,
+      "num_problems": 5,
+      "forced_exploration": false,
+      "duration": 103.7124092578888
+    },
+    {
+      "iteration": 13,
+      "avg_fitness": 0.81157,
+      "max_fitness": 0.96175,
+      "diversity_pressure": 0.3136186956521739,
+      "stagnation_count": 0,
+      "num_prompts": 14,
+      "num_problems": 7,
+      "forced_exploration": true,
+      "duration": 141.02970719337463
+    },
+    {
+      "iteration": 14,
+      "avg_fitness": 0.8509642857142857,
+      "max_fitness": 0.9623499999999999,
+      "diversity_pressure": 0.24221250000000003,
+      "stagnation_count": 1,
+      "num_prompts": 14,
+      "num_problems": 3,
+      "forced_exploration": false,
+      "duration": 151.03098392486572
+    },
+    {
+      "iteration": 15,
+      "avg_fitness": 0.9442821428571428,
+      "max_fitness": 0.9615999999999999,
+      "diversity_pressure": 0.01587984693877555,
+      "stagnation_count": 2,
+      "num_prompts": 16,
+      "num_problems": 4,
+      "forced_exploration": false,
+      "duration": 68.86030793190002
+    },
+    {
+      "iteration": 16,
+      "avg_fitness": 0.77614609375,
+      "max_fitness": 0.96175,
+      "diversity_pressure": 0.364994642857143,
+      "stagnation_count": 0,
+      "num_prompts": 18,
+      "num_problems": 4,
+      "forced_exploration": true,
+      "duration": 127.49602174758911
+    },
+    {
+      "iteration": 17,
+      "avg_fitness": 0.7851291666666667,
+      "max_fitness": 0.9623499999999999,
+      "diversity_pressure": 0.367296875,
+      "stagnation_count": 1,
+      "num_prompts": 18,
+      "num_problems": 5,
+      "forced_exploration": false,
+      "duration": 142.03167033195496
+    },
+    {
+      "iteration": 18,
+      "avg_fitness": 0.8177316666666666,
+      "max_fitness": 0.9623499999999999,
+      "diversity_pressure": 0.311759,
+      "stagnation_count": 2,
+      "num_prompts": 18,
+      "num_problems": 5,
+      "forced_exploration": false,
+      "duration": 172.47662496566772
+    },
+    {
+      "iteration": 19,
+      "avg_fitness": 0.816705,
+      "max_fitness": 0.9623499999999999,
+      "diversity_pressure": 0.312858,
+      "stagnation_count": 0,
+      "num_prompts": 21,
+      "num_problems": 6,
+      "forced_exploration": true,
+      "duration": 164.41416668891907
+    }
+  ]
+}
